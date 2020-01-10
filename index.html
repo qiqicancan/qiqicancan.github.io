@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <!--UI-->
+    <link rel="stylesheet" href="/layui/css/layui.css">
+    <script src="/layui/layui.js"></script>
+    <!--JQuery-->
+    <script src="/js/jquery-3.4.1.min.js"></script>
+    <script src="/js/jquery.md5.js"></script>
+    <!--Mine-->
+    <script src="/js/myjs.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/mycss.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <span class="top-text">Encrypt Your Text</span>
+            <div>so simple that you are in control</div>
+        </div>
+        <div class="layui-row menu">
+            <div class="layui-col-sm3">
+                <a href="">Whom serve?</a>
+            </div>
+            <div class="layui-col-sm3">
+                <a href="">What offering?</a>
+            </div>
+            <div class="layui-col-sm3">
+                <a href="">Download</a>
+            </div>
+            <div class="layui-col-sm3">
+                <a href="">FAQ</a>
+            </div>
+        </div>
+        <div class="content">
+            <span class="span-text">Text/Ciphertext:</span>
+            <textarea id="t1" rows="10"></textarea><br>
+            <span class="span-text">Key:</span>
+            <input type="password" id="t2">&nbsp;&nbsp;&nbsp;<input type="checkbox" id="c1">Display<br>
+            <span class="span-text">
+                <input type="button" id="b1" value="Decrypt">&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" id="b2" value="Encrypt">&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" id="b3" value="Reset All">
+            </span>
+            <span class="span-text">Version:1.0</span>
+        </div>
+        <div class="bottom"><span class="bottom-text">Some of my information is here</span></div>
+    </div>
+</body>
+</html>
