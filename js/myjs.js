@@ -1,5 +1,21 @@
 ﻿$(
             function () {
+                $("#b00").click(
+                    function () {
+                        var Url2=document.getElementById("t1");
+                        Url2.select(); // 选择对象
+                        document.execCommand("Cut"); // 执行浏览器复制命令
+                        //alert("已复制好，可贴粘。");
+                    }
+                );
+                //it doesn't work
+                $("#b01").click(
+                    function () {
+                        t1.focus(); // 选择对象
+                        document.execCommand("Paste"); // 执行浏览器复制命令
+                        alert("已复制好，可贴粘。");
+                    }
+                );
                 $("#b1").click(
                     function () {
                         var a = $("#t1").val(), b = $("#t2").val(), c, my_keys, c;
