@@ -51,6 +51,11 @@ a {
     padding-top: 15px;
     padding-bottom: 15px;
 }
+p {
+    text-align: left;
+    text-indent: 30px;
+    line-height:20px;
+}
 
 textarea {
     width: 50%;
