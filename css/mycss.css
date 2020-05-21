@@ -19,12 +19,13 @@
     margin-top: 30px;
     margin-bottom: 25px;
 }
-.top div{
-    font-size:20px;
-    color:white;
-    text-align:right;
-    padding-right:30px;
-    padding-bottom:10px;
+
+.top div {
+    font-size: 20px;
+    color: white;
+    text-align: right;
+    padding-right: 30px;
+    padding-bottom: 10px;
 }
 
 .menu {
@@ -35,7 +36,7 @@
 a {
     margin-left: 50px;
     margin-right: 50px;
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
 .content {
@@ -51,10 +52,21 @@ a {
     padding-top: 15px;
     padding-bottom: 15px;
 }
-p {
+
+.content p {
     text-align: left;
-    text-indent: 30px;
-    line-height:20px;
+    /*text-indent: 30px;*/
+    margin-left:30px;
+    margin-right:30px;
+    line-height: 20px;
+}
+
+.p2 {
+    text-align: left;
+    line-height: 20px;
+    font: bolder;
+    font-size: larger;
+    margin-top:10px;
 }
 
 textarea {
